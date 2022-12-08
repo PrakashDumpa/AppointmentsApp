@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list {
+  min-width: 30%;
+}
+.listItem {
+  border-radius: 10px;
+  /* width: 30%; */
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+}
+.listItem_heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start_button {
+  all: unset;
+}
+.start_button:focus {
+  outline: none;
+}
+.listItem_name {
+  font-size: 20px;
+}
+/* .date_color {
+  color: #9897f0;
+} */
+@media (max-width: 567px) {
+  .list {
+    width: 100%;
+  }
+}
